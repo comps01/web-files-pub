@@ -12,6 +12,7 @@
       loop: false,
       slidesPerView: 1.3,
       spaceBetween: 20,
+      centeredSlides: true,
       pagination: {
         el: '.swiper-pagination.ai-features',
         clickable: true,
@@ -23,6 +24,10 @@
       breakpoints: {
         0: {
           slidesPerView: 1.2,
+          centeredSlides: true
+        },
+        480: {
+        	centeredSlides: true
         },
         768: {
           spaceBetween: 20,
